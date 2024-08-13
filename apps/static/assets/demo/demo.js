@@ -950,7 +950,7 @@ demo = {
         pointHoverRadius: 4,
         pointHoverBorderWidth: 15,
         pointRadius: 4,
-        data: [80, 100, 70, 80, 120, 80],
+        data: [80000, 100000, 70000, 80000, 120000, 80000 ],
       }]
     };
 
@@ -999,7 +999,7 @@ demo = {
 
 
 
-    var chart_labels = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'];
+    var chart_labels = ['JAN-2023', 'FEB-2023', 'MAR-2023', 'APR-2023', 'MAY-2023', 'JUN-2023', 'JUL-2023', 'AUG-2023', 'SEP-2023', 'OCT-2023', 'NOV-2023', 'DEC-2023'];
     var chart_data = [100, 70, 90, 70, 85, 60, 75, 60, 90, 80, 110, 100];
 
 
@@ -1015,7 +1015,7 @@ demo = {
       data: {
         labels: chart_labels,
         datasets: [{
-          label: "My First dataset",
+          label: "Poweron Computers",
           fill: true,
           backgroundColor: gradientStroke,
           borderColor: '#d346b1',
@@ -1074,9 +1074,9 @@ demo = {
         display: false
       },
       data: {
-        labels: ['USA', 'GER', 'AUS', 'UK', 'RO', 'BR'],
+        labels: ['JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'],
         datasets: [{
-          label: "Countries",
+          label: "Data transfer",
           fill: true,
           backgroundColor: gradientStroke,
           hoverBackgroundColor: gradientStroke,
