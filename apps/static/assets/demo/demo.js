@@ -934,7 +934,7 @@ demo = {
     gradientStroke.addColorStop(0, 'rgba(119,52,169,0)'); //purple colors
 
     var data = {
-      labels: ['JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'],
+      labels: ['MAY', 'APR', 'MAY', 'JUN', 'JUL', 'AUG'],
       datasets: [{
         label: "Data",
         fill: true,
@@ -970,7 +970,7 @@ demo = {
     gradientStroke.addColorStop(0, 'rgba(66,134,121,0)'); //green colors
 
     var data = {
-      labels: ['JUL', 'AUG', 'SEP', 'OCT', 'NOV'],
+      labels: ['APR', 'MAY', 'JUN', 'JUL', 'AUG'],
       datasets: [{
         label: "My First dataset",
         fill: true,
@@ -999,7 +999,7 @@ demo = {
 
 
 
-    var chart_labels = ['JAN-2023', 'FEB-2023', 'MAR-2023', 'APR-2023', 'MAY-2023', 'JUN-2023', 'JUL-2023', 'AUG-2023', 'SEP-2023', 'OCT-2023', 'NOV-2023', 'DEC-2023'];
+    var chart_labels = ['SEP-2023', 'OCT-2023', 'NOV-2023', 'DEC-2023', 'JAN-2024', 'FEB-2024', 'MAR-2024', 'APR-2024', 'MAY-2024', 'JUN-2024', 'JUL-2024', 'AUG-2024'];
     var chart_data = [100, 70, 90, 70, 85, 60, 75, 60, 90, 80, 110, 100];
 
 
@@ -1074,7 +1074,7 @@ demo = {
         display: false
       },
       data: {
-        labels: ['JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'],
+        labels: ['MAY', 'APR', 'MAY', 'JUN', 'JUL', 'AUG'],
         datasets: [{
           label: "Data transfer",
           fill: true,
@@ -1427,17 +1427,11 @@ demo = {
 
   initVectorMap: function() {
     var mapData = {
-      "AU": 760,
-      "BR": 550,
-      "CA": 120,
-      "DE": 1300,
-      "FR": 540,
-      "GB": 690,
-      "GE": 200,
-      "IN": 200,
-      "RO": 600,
-      "RU": 300,
-      "US": 2920,
+      "US": 5000,
+      "GE": 2000,
+      "CN": 1000,
+      "RO": 812,
+      "GB": 787,
     };
 
     $('#worldMap').vectorMap({
@@ -1446,7 +1440,7 @@ demo = {
       zoomOnScroll: false,
       regionStyle: {
         initial: {
-          fill: '#e4e4e4',
+          fill: '#fff',
           "fill-opacity": 0.9,
           stroke: 'none',
           "stroke-width": 0,
